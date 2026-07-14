@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#2b0f1a" />
+    <title>Infinite Hearts 💕</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="scene">
+      <canvas id="testCanvas"></canvas>
+
+      <div id="overlay">
+        <h1 id="msgTitle">Então seremos duas rata no esgoto.</h1>
+        <p id="tapHint">toque na tela ✨</p>
+      </div>
+
+      <button id="musicToggle" aria-label="tocar música">🎵</button>
+      <audio id="bgMusic" src="musica.mp3" loop preload="none"></audio>
+    </div>
+
+    <a href="https://createjs.com/" target="_blank" class="credit"><div class="logo white"></div></a>
+
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+      integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
+      crossorigin="anonymous"></script>
+    <script src="https://code.createjs.com/1.0.0/easeljs.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1524180/codepen-template-1.0.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
